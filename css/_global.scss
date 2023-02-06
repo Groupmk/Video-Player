@@ -1,0 +1,59 @@
+html {
+	box-sizing: border-box;
+	overflow-x:hidden;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'SFProDisplay', sans-serif;
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+	max-width: 1470px;
+	overflow-x: hidden;
+	padding: 0 15px;
+	background: #fffefe;
+}
+
+body.noscroll {
+	overflow: hidden;
+	}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+a {
+	cursor: pointer;
+	color: inherit;
+	text-decoration: none;
+	transition: all 3s ease;
+}
+
+a:hover {
+	transition: all 3s;
+}
+
+.section {
+	width: 100%;
+	max-width: 1470px;
+	margin: 0 auto;
+}
+
